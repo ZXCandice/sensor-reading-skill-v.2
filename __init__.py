@@ -7,7 +7,8 @@ class Test(MycroftSkill):
 
     @intent_file_handler('test.intent')
     def handle_test(self, message):
-        self.speak_dialog('test')
+        sensor_unit = message.data.get('sensor')
+        self.speak_dialog('test', {'sensor':sensor_unit})
 
 
 def create_skill():
