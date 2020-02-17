@@ -1,2 +1,1 @@
-Value of sensor 1
-Reading of sensor 1
+(value|reading) of {sensor}
