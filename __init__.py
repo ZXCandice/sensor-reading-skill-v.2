@@ -1,7 +1,7 @@
 from adapt.intent import IntentBuilder
 from mycroft import MycroftSkill, intent_file_handler
 
-class Test(MycroftSkill):
+class SensorReader(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
