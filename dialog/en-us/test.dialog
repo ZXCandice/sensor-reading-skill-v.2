@@ -1,1 +1,2 @@
-I am working, {sensor} is 20 degrees celsius.
+The temperature of {sensor} is {value} degrees celsius
+On {sensor}, the value is {value} degrees celsius
